@@ -1,22 +1,43 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% http://bibdesk.sourceforge.net/
 
-%% Created for Kyle Hanquist at 2020-07-12 18:31:23 -0500 
+%% Created for Kyle Hanquist at 2020-07-13 12:19:05 -0500 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
 
+@techreport{gnoffo:nasa:1989,
+	Address = {Hampton, VA},
+	Author = {Gnoffo, P. A. and Gupta, R. N. and Shinn, J. L.},
+	Date-Added = {2020-07-13 17:16:51 +0000},
+	Date-Modified = {2020-07-13 17:18:31 +0000},
+	Institution = {NASA Langley},
+	Number = {NASA-TP-2867},
+	Title = {Conservation equations and physical models for hypersonic air flows in thermal and chemical nonequilibrium},
+	Year = {1989}}
+
+@article{wright:aj:1998,
+	Author = {Michael J. Wright and Graham V. Candler and Deepak Bose},
+	Date-Added = {2020-07-13 17:13:29 +0000},
+	Date-Modified = {2020-07-13 17:16:16 +0000},
+	Doi = {10.2514/2.586},
+	Journal = {AIAA Journal},
+	Number = {9},
+	Pages = {1603--1609},
+	Title = {Data-Parallel Line Relaxation Method for the Navier-Stokes Equations},
+	Volume = {36},
+	Year = {1998}}
+
 @article{mao:cmame:2020,
 	Abstract = {In this work we investigate the possibility of using physics-informed neural networks (PINNs) to approximate the Euler equations that model high-speed aerodynamic flows. In particular, we solve both the forward and inverse problems in one-dimensional and two-dimensional domains. For the forward problem, we utilize the Euler equations and the initial/boundary conditions to formulate the loss function, and solve the one-dimensional Euler equations with smooth solutions and with solutions that have a contact discontinuity as well as a two-dimensional oblique shock wave problem. We demonstrate that we can capture the solutions with only a few scattered points clustered randomly around the discontinuities. For the inverse problem, motivated by mimicking the Schlieren photography experimental technique used traditionally in high-speed aerodynamics, we use the data on density gradient ∇ρ(x,t), the pressure p(x∗,t) at a specified point x=x∗ as well as the conservation laws to infer all states of interest (density, velocity and pressure fields). We present illustrative benchmark examples for both the problem with smooth solutions and Riemann problems (Sod and Lax problems) with PINNs, demonstrating that all inferred states are in good agreement with the reference solutions. Moreover, we show that the choice of the position of the point x∗ plays an important role in the learning process. In particular, for the problem with smooth solutions we can randomly choose the position of the point x∗ from the computational domain, while for the Sod or Lax problem, we have to choose the position of the point x∗ from the domain between the initial discontinuous point and the shock position of the final time. We also solve the inverse problem by combining the aforementioned data and the Euler equations in characteristic form, showing that the results obtained by using the Euler equations in characteristic form are better than that obtained by using the Euler equations in conservative form. Furthermore, we consider another type of inverse problem, specifically, we employ PINNs to learn the value of the parameter γ in the equation of state for the parameterized two-dimensional oblique wave problem by using the given data of the density, velocity and the pressure, and we identify the parameter γ accurately. Taken together, our results demonstrate that in the current form, where the conservation laws are imposed at random points, PINNs are not as accurate as traditional numerical methods for forward problems but they are superior for inverse problems that cannot even be solved with standard techniques.},
 	Author = {Zhiping Mao and Ameya D. Jagtap and George Em Karniadakis},
 	Date-Added = {2020-07-12 23:30:43 +0000},
-	Date-Modified = {2020-07-12 23:31:13 +0000},
+	Date-Modified = {2020-07-12 23:39:51 +0000},
 	Doi = {10.1016/j.cma.2019.112789},
 	Journal = {Computer Methods in Applied Mechanics and Engineering},
 	Keywords = {Euler equations, Machine learning, Neural networks, Conservation laws, Riemann problem, Hidden fluid mechanics},
-	Pages = {112789},
 	Title = {Physics-informed neural networks for high-speed flows},
 	Volume = {360},
 	Year = {2020},
