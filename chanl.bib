@@ -1,228 +1,33 @@
 %% This BibTeX bibliography file was created using BibDesk.
-%% http://bibdesk.sourceforge.net/
+%% https://bibdesk.sourceforge.io/
 
-%% Created for Kyle Hanquist at 2020-07-13 15:24:02 -0500 
+%% Created for Kyle Hanquist at 2020-07-20 11:23:15 -0700 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
 
-@inproceedings{gottlieb:siam:1977,
-	Author = {Gil, A. and Segura, J. and Temme, N.},
-	Booktitle = {Society for Industrial and Applied Mathematics},
-	Date-Added = {2020-07-13 18:52:26 +0000},
-	Date-Modified = {2020-07-13 18:54:15 +0000},
-	Title = {Numerical Methods for Special Functions},
-	Year = {1977}}
+@inproceedings{candler:scitech:2009,
+	Address = {Orlando, FL},
+	Author = {Graham V. Candler and Dimitri J. Mavriplis},
+	Booktitle = {47th AIAA Aerospace Sciences Meeting},
+	Date-Added = {2020-07-20 11:20:05 -0700},
+	Date-Modified = {2020-07-20 11:22:11 -0700},
+	Month = {January},
+	Publisher = {{AIAA Paper} 2009-153},
+	Title = {Current Status and Future Prospects for the Numerical Simulation of Hypersonic Flows },
+	Year = {2009}}
 
-@article{junkins:jas:2013,
-	Author = {John L. Junkins and Ahmad Bani Younes and Robyn M. Woollands and Xiaoli Bai},
-	Date-Added = {2020-07-13 18:48:37 +0000},
-	Date-Modified = {2020-07-13 18:51:53 +0000},
-	Doi = { 10.1007/s40295-015-0061-1},
-	Journal = {The Journal of the Astronautical Sciences},
-	Pages = {623--653},
-	Title = {Picard Iteration, Chebyshev Polynomials and Chebyshev-Picard Methods: Application in Astrodynamics},
-	Volume = {60},
-	Year = {2013}}
-
-@article{dormand:jcam:1980,
-	Abstract = {A family of embedded Runge-Kutta formulae RK5 (4) are derived. From these are presented formulae which have (a) `small' principal truncation terms in the fifth order and (b) extended regions of absolute stability.},
-	Author = {J.R. Dormand and P.J. Prince},
-	Date-Added = {2020-07-13 18:47:04 +0000},
-	Date-Modified = {2020-07-13 18:47:29 +0000},
-	Doi = {10.1016/0771-050X(80)90013-3},
-	Journal = {Journal of Computational and Applied Mathematics},
-	Number = {1},
-	Pages = {19 - 26},
-	Title = {A family of embedded Runge-Kutta formulae},
-	Volume = {6},
-	Year = {1980},
-	Bdsk-Url-1 = {http://www.sciencedirect.com/science/article/pii/0771050X80900133},
-	Bdsk-Url-2 = {https://doi.org/10.1016/0771-050X(80)90013-3}}
-
-@techreport{gnoffo:nasa:1989,
-	Address = {Hampton, VA},
-	Author = {Gnoffo, P. A. and Gupta, R. N. and Shinn, J. L.},
-	Date-Added = {2020-07-13 17:16:51 +0000},
-	Date-Modified = {2020-07-13 17:18:31 +0000},
-	Institution = {NASA Langley},
-	Number = {NASA-TP-2867},
-	Title = {Conservation equations and physical models for hypersonic air flows in thermal and chemical nonequilibrium},
-	Year = {1989}}
-
-@article{wright:aj:1998,
-	Author = {Michael J. Wright and Graham V. Candler and Deepak Bose},
-	Date-Added = {2020-07-13 17:13:29 +0000},
-	Date-Modified = {2020-07-13 17:16:16 +0000},
-	Doi = {10.2514/2.586},
+@article{druguet:aj:2005,
+	Author = {Marie-Claude Druguet and Graham V. Candler and Ioannis Nompelis},
+	Date-Added = {2020-07-20 11:17:50 -0700},
+	Date-Modified = {2020-07-20 11:19:19 -0700},
 	Journal = {AIAA Journal},
-	Number = {9},
-	Pages = {1603--1609},
-	Title = {Data-Parallel Line Relaxation Method for the Navier-Stokes Equations},
-	Volume = {36},
-	Year = {1998}}
-
-@article{mao:cmame:2020,
-	Abstract = {In this work we investigate the possibility of using physics-informed neural networks (PINNs) to approximate the Euler equations that model high-speed aerodynamic flows. In particular, we solve both the forward and inverse problems in one-dimensional and two-dimensional domains. For the forward problem, we utilize the Euler equations and the initial/boundary conditions to formulate the loss function, and solve the one-dimensional Euler equations with smooth solutions and with solutions that have a contact discontinuity as well as a two-dimensional oblique shock wave problem. We demonstrate that we can capture the solutions with only a few scattered points clustered randomly around the discontinuities. For the inverse problem, motivated by mimicking the Schlieren photography experimental technique used traditionally in high-speed aerodynamics, we use the data on density gradient ∇ρ(x,t), the pressure p(x∗,t) at a specified point x=x∗ as well as the conservation laws to infer all states of interest (density, velocity and pressure fields). We present illustrative benchmark examples for both the problem with smooth solutions and Riemann problems (Sod and Lax problems) with PINNs, demonstrating that all inferred states are in good agreement with the reference solutions. Moreover, we show that the choice of the position of the point x∗ plays an important role in the learning process. In particular, for the problem with smooth solutions we can randomly choose the position of the point x∗ from the computational domain, while for the Sod or Lax problem, we have to choose the position of the point x∗ from the domain between the initial discontinuous point and the shock position of the final time. We also solve the inverse problem by combining the aforementioned data and the Euler equations in characteristic form, showing that the results obtained by using the Euler equations in characteristic form are better than that obtained by using the Euler equations in conservative form. Furthermore, we consider another type of inverse problem, specifically, we employ PINNs to learn the value of the parameter γ in the equation of state for the parameterized two-dimensional oblique wave problem by using the given data of the density, velocity and the pressure, and we identify the parameter γ accurately. Taken together, our results demonstrate that in the current form, where the conservation laws are imposed at random points, PINNs are not as accurate as traditional numerical methods for forward problems but they are superior for inverse problems that cannot even be solved with standard techniques.},
-	Author = {Zhiping Mao and Ameya D. Jagtap and George Em Karniadakis},
-	Date-Added = {2020-07-12 23:30:43 +0000},
-	Date-Modified = {2020-07-12 23:39:51 +0000},
-	Doi = {10.1016/j.cma.2019.112789},
-	Journal = {Computer Methods in Applied Mechanics and Engineering},
-	Keywords = {Euler equations, Machine learning, Neural networks, Conservation laws, Riemann problem, Hidden fluid mechanics},
-	Title = {Physics-informed neural networks for high-speed flows},
-	Volume = {360},
-	Year = {2020},
-	Bdsk-Url-1 = {http://www.sciencedirect.com/science/article/pii/S0045782519306814},
-	Bdsk-Url-2 = {https://doi.org/10.1016/j.cma.2019.112789}}
-
-@inproceedings{parent:aviation:2020,
-	Author = {Bernard Parent and Kyle M. Hanquist and Ajjay Omprakas},
-	Booktitle = {AIAA Aviation and Aeronautics Forum and Exposition},
-	Date-Added = {2020-07-09 19:08:32 +0000},
-	Date-Modified = {2020-07-09 19:10:22 +0000},
-	Doi = {10.2514/6.2020-3230},
-	Month = {June},
-	Publisher = {{AIAA Paper} 2020-3275},
-	Title = {Fully-Coupled Simulation of Plasma Discharges, Turbulence, and Combustion in a Scramjet Combustor},
-	Year = {2020},
-	Bdsk-Url-1 = {https://dx.doi.org/10.2514/6.2020-3230}}
-
-@article{raissi:jcp:2019,
-	Abstract = {We introduce physics-informed neural networks -- neural networks that are trained to solve supervised learning tasks while respecting any given laws of physics described by general nonlinear partial differential equations. In this work, we present our developments in the context of solving two main classes of problems: data-driven solution and data-driven discovery of partial differential equations. Depending on the nature and arrangement of the available data, we devise two distinct types of algorithms, namely continuous time and discrete time models. The first type of models forms a new family of data-efficient spatio-temporal function approximators, while the latter type allows the use of arbitrarily accurate implicit Runge--Kutta time stepping schemes with unlimited number of stages. The effectiveness of the proposed framework is demonstrated through a collection of classical problems in fluids, quantum mechanics, reaction--diffusion systems, and the propagation of nonlinear shallow-water waves.},
-	Author = {M. Raissi and P. Perdikaris and G.E. Karniadakis},
-	Date-Added = {2020-07-08 18:33:38 +0000},
-	Date-Modified = {2020-07-08 18:34:13 +0000},
-	Doi = {10.1016/j.jcp.2018.10.045},
-	Journal = {Journal of Computational Physics},
-	Pages = {686 - 707},
-	Title = {Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations},
-	Volume = {378},
-	Year = {2019},
-	Bdsk-Url-1 = {http://www.sciencedirect.com/science/article/pii/S0021999118307125},
-	Bdsk-Url-2 = {https://doi.org/10.1016/j.jcp.2018.10.045}}
-
-@article{mortari:jcam:2019,
-	Author = {Daniele Mortari and Hunter Johnston and Lidia Smith},
-	Date-Added = {2020-07-08 18:26:45 +0000},
-	Date-Modified = {2020-07-08 18:27:45 +0000},
-	Doi = {j.cam.2018.12.007},
-	Journal = {Journal of Computational and Applied Mathematics},
-	Pages = {293 - 307},
-	Title = {High accuracy least-squares solutions of nonlinear differential equations},
-	Volume = {352},
-	Year = {2019},
-	Bdsk-Url-1 = {https://dx.doi.org/j.cam.2018.12.007}}
-
-@article{mortari:m:2017a,
-	Author = {Mortari, Daniele},
-	Date-Added = {2020-07-08 18:24:16 +0000},
-	Date-Modified = {2020-07-13 18:07:28 +0000},
-	Doi = {10.3390/math5040048},
-	Journal = {Mathematics},
-	Number = {4},
-	Title = {Least-Squares Solution of Linear Differential Equations},
-	Volume = {5},
-	Year = {2017},
-	Bdsk-Url-1 = {https://dx.doi.org/10.3390/math5040048}}
-
-@article{mortari:m:2017,
-	Author = {Daniele Mortari},
-	Date-Added = {2020-07-08 18:18:47 +0000},
-	Date-Modified = {2020-07-08 18:22:13 +0000},
-	Doi = {10.3390/math5040057},
-	Journal = {Mathematics},
-	Number = {4},
-	Title = {The Theory of Connections: Connecting Points},
-	Volume = {5},
-	Year = {2017},
-	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGnCwwXGBkaG1UkbnVsbNMNDg8QExZXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6IREoACgAOiFBWABIAFgAZccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QKy4uLy4uLy4uLy4uL0Rvd25sb2Fkcy9TMDAyMTk5OTExODMwNzEyNS5iaWJPEQFoAAAAAAFoAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8VUzAwMjE5OTkxMTgzMDcxMjUuYmliAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAAAEAAIAAAogY3UAAAAAAAAAAAAAAAAACURvd25sb2FkcwAAAgAwLzpVc2VyczpoYW5xdWlzdDpEb3dubG9hZHM6UzAwMjE5OTkxMTgzMDcxMjUuYmliAA4ALAAVAFMAMAAwADIAMQA5ADkAOQAxADEAOAAzADAANwAxADIANQAuAGIAaQBiAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIALlVzZXJzL2hhbnF1aXN0L0Rvd25sb2Fkcy9TMDAyMTk5OTExODMwNzEyNS5iaWIAEwABLwAAFQACAA///wAA0hwdHh9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiHiBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAUQBTAFsAYQBoAHAAewCCAIUAhwCJAIwAjgCQAJIAnwCpANcCQwJIAlMCXAJpAmwAAAAAAAACAQAAAAAAAAAhAAAAAAAAAAAAAAAAAAACdQ==}}
-
-@unpublished{schiassi:pp:2020,
-	Author = {Enrico Schiassi and Carl Leake and Mario De Florio and Hunter Johnston and Roberto Furfaro and Daniele Mortari},
-	Date-Added = {2020-07-08 17:45:44 +0000},
-	Date-Modified = {2020-07-08 17:55:25 +0000},
-	Note = {arXiv preprint arXiv:2005.10632},
-	Title = {Extreme Theory of Functional Connections: A Physics-Informed Neural Network Method for Solving Parametric Differential Equations},
-	Url = {https://arxiv.org/abs/2005.10632},
-	Year = {2020},
-	Bdsk-Url-1 = {https://arxiv.org/abs/2005.10632}}
-
-@article{leiserson:s:2020,
-	Author = {Leiserson, Charles E. and Thompson, Neil C. and Emer, Joel S. and Kuszmaul, Bradley C. and Lampson, Butler W. and Sanchez, Daniel and Schardl, Tao B.},
-	Date-Added = {2020-07-08 16:17:33 +0000},
-	Date-Modified = {2020-07-08 16:20:42 +0000},
-	Doi = {10.1126/science.aam9744},
-	Journal = {Science},
-	Number = {6495},
-	Title = {There{\textquoteright}s plenty of room at the Top: What will drive computer performance after Moore{\textquoteright}s law?},
-	Volume = {368},
-	Year = {2020},
-	Bdsk-Url-1 = {https://dx.doi.org/10.1126/science.aam9744}}
-
-@article{kim:jtht:2015,
-	Author = {Jae Gang Kim and Iain D. Boyd},
-	Date-Added = {2020-07-08 16:13:13 +0000},
-	Date-Modified = {2020-07-08 16:15:21 +0000},
-	Doi = {10.2514/1.T4249},
-	Journal = {Journal of Thermophysics and Heat Transfer},
-	Number = {2},
-	Pages = {241--252},
-	Title = {Master Equation Analysis of Post Normal Shock Waves of Nitrogen},
-	Volume = {29},
-	Year = {2015},
-	Bdsk-Url-1 = {https://dx.doi.org/10.2514/1.T4249}}
-
-@article{josyula:jtht:2019,
-	Author = {Eswar Josyula and Casimir J. Suchyta, III and Prakash Vedula and Jonathan M. Burt},
-	Date-Added = {2020-07-08 16:03:05 +0000},
-	Date-Modified = {2020-07-08 16:06:03 +0000},
-	Doi = {10.2514/1.T5444},
-	Journal = {Journal of Thermophysics and Heat Transfer},
-	Number = {2},
-	Title = {Multiquantum Transitions in Oxygen and Nitrogen Molecules in Hypersonic Nonequilibrium Flows},
-	Volume = {33},
-	Year = {2019},
-	Bdsk-Url-1 = {https://dx.doi.org/10.2514/1.T5444}}
-
-@inproceedings{chaudhry:aviation:2020,
-	Author = {Ross S. Chaudhry and Iain D. Boyd and Graham V. Candler},
-	Booktitle = {AIAA Aviation and Aeronautics Forum and Exposition},
-	Date-Added = {2020-07-08 15:54:52 +0000},
-	Date-Modified = {2020-07-08 15:57:45 +0000},
-	Doi = {10.2514/6.2020-3272},
-	Month = {June},
-	Publisher = {{AIAA Paper} 2020-3272},
-	Title = {Vehicle-Scale Simulations of Hypersonic Flows using the MMT Chemical Kinetics Model},
-	Year = {2020},
-	Bdsk-Url-1 = {https://dx.doi.org/10.2514/6.2020-3272}}
-
-@article{fernandez:ieee:1993,
-	Author = {F. A. Fernandez and Y. C. Yong and R. D. Ettinger},
-	Date-Added = {2020-07-07 09:21:29 -0700},
-	Date-Modified = {2020-07-07 09:23:17 -0700},
-	Journal = {IEEE Transactions on Magnetics},
-	Month = {March},
-	Number = {2},
-	Pages = {1882-1885},
-	Title = {A simple adaptive mesh generator for 2-D finite element calculations (optical waveguide theory)},
-	Volume = {29},
-	Year = {1993},
-	Bdsk-Url-1 = {https://ieeexplore.ieee.org/abstract/document/250774}}
-
-@inproceedings{mani:aiaa:2005,
-	Address = {Toronto, Canada},
-	Author = {Ali Mani, Meng Wang, Parviz Moin},
-	Booktitle = {36th AIAA Plasmadynamics and Lasers Conference},
-	Date-Added = {2020-07-05 18:30:32 -0700},
-	Date-Modified = {2020-07-05 18:40:39 -0700},
-	Month = {June},
-	Pages = {{AIAA Paper} 2005-4655},
-	Title = {Computational Study of Aero-Optical Distortion by Turbulent Wake},
-	Year = {2005},
-	Bdsk-Url-1 = {https://arc.aiaa.org/doi/10.2514/6.2005-4655}}
+	Number = {5},
+	Title = {Effect of Numerics on Navier--Stokes Computations of Hypersonic Double-Cone Flows},
+	Volume = {43},
+	Year = {2005}}
 
 @article{wang:ao:2007,
 	Author = {Tao Wang and Yan Zhao and Dong Xu and Qiuying Yang},
@@ -375,11 +180,11 @@
 	Author = {Kyle M. Hanquist and Ross S. Chaudhry and Iain D. Boyd and Jesse W. Streicher and Ajay Krish and Ronald K. Hanson},
 	Booktitle = {AIAA Aviation and Aeronautics Forum and Exposition},
 	Date-Added = {2020-06-08 16:19:58 -0700},
-	Date-Modified = {2020-07-13 20:23:55 +0000},
+	Date-Modified = {2020-06-08 18:04:14 -0700},
 	Doi = {10.2514/6.2020-3275},
 	Month = {June},
 	Publisher = {{AIAA Paper} 2020-3275},
-	Title = {Detailed Thermochemical Modeling of {O$_2$-Ar} Mixtures in Reflected Shock Tube Flows},
+	Title = {Detailed Thermochemical Modeling of {O\textsubscript{2}-Ar} in Reflected Shock Tube Flows},
 	Year = {2020},
 	Bdsk-Url-1 = {https://doi.org/10.2514/6.2020-3275}}
 
@@ -705,15 +510,10 @@
 @article{streicher:pof:2020,
 	Author = {Jesse W. Streicher and Ajay Krish and Ronald K. Hanson and Kyle M. Hanquist and Ross S. Chaudhry and Iain D. Boyd},
 	Date-Added = {2020-04-21 10:36:58 -0700},
-	Date-Modified = {2020-07-08 16:12:32 +0000},
-	Doi = {10.1063/5.0012426},
+	Date-Modified = {2020-04-30 15:04:44 -0700},
 	Journal = {Physics of Fluids},
-	Number = {7},
-	Pages = {1--21},
 	Title = {Shock-tube measurements of coupled vibration-dissociation time-histories and rate parameters in oxygen and argon mixtures from 5,000-10,000 K},
-	Volume = {32},
-	Year = {2020},
-	Bdsk-Url-1 = {https://dx.doi.org/10.1063/5.0012426}}
+	Year = {2020 (submitted)}}
 
 @techreport{dakota:2014,
 	Author = {Adams, B.M. and Bauman, L.E. and Bohnhoff, W.J. and Dalbey, K.R. and Ebeida, M.S. and Eddy, J.P. and Eldred, M.S. and Hough, P.D. and Hu, K.T. and Jakeman, J.D. and Stephens, J.A. and Swiler, L.P. and Vigil, D.M. and Wildey, T.M.},
@@ -794,7 +594,6 @@
 
 @article{eyi:jtht:2019,
 	Author = {Sinan Eyi and Kyle M. Hanquist and Iain D. Boyd},
-	Bdsk-File-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxAtLi4vLi4vLi4vLi4vRG93bmxvYWRzL1BoeXNSZXZBLjQ0LjMwMDcuYmlidGV4TxEBdAAAAAABdAACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////F1BoeXNSZXZBLjQ0LjMwMDcuYmlidGV4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAABAACAAAKIGN1AAAAAAAAAAAAAAAAAAlEb3dubG9hZHMAAAIAMy86VXNlcnM6a3lsZS1ob21lOkRvd25sb2FkczpQaHlzUmV2QS40NC4zMDA3LmJpYnRleAAADgAwABcAUABoAHkAcwBSAGUAdgBBAC4ANAA0AC4AMwAwADAANwAuAGIAaQBiAHQAZQB4AA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAMVVzZXJzL2t5bGUtaG9tZS9Eb3dubG9hZHMvUGh5c1JldkEuNDQuMzAwNy5iaWJ0ZXgAABMAAS8AABUAAgAQ//8AAAAIAA0AGgAkAFQAAAAAAAACAQAAAAAAAAAFAAAAAAAAAAAAAAAAAAABzA==},
 	Date-Added = {2020-04-19 20:06:00 -0700},
 	Date-Modified = {2020-04-19 20:06:44 -0700},
 	Doi = {10.2514/1.T5523},
@@ -805,6 +604,7 @@
 	Url = {https://doi.org/10.2514/1.T5523},
 	Volume = {33},
 	Year = {2019},
+	Bdsk-File-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxAtLi4vLi4vLi4vLi4vRG93bmxvYWRzL1BoeXNSZXZBLjQ0LjMwMDcuYmlidGV4TxEBdAAAAAABdAACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////F1BoeXNSZXZBLjQ0LjMwMDcuYmlidGV4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAABAACAAAKIGN1AAAAAAAAAAAAAAAAAAlEb3dubG9hZHMAAAIAMy86VXNlcnM6a3lsZS1ob21lOkRvd25sb2FkczpQaHlzUmV2QS40NC4zMDA3LmJpYnRleAAADgAwABcAUABoAHkAcwBSAGUAdgBBAC4ANAA0AC4AMwAwADAANwAuAGIAaQBiAHQAZQB4AA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAMVVzZXJzL2t5bGUtaG9tZS9Eb3dubG9hZHMvUGh5c1JldkEuNDQuMzAwNy5iaWJ0ZXgAABMAAS8AABUAAgAQ//8AAAAIAA0AGgAkAFQAAAAAAAACAQAAAAAAAAAFAAAAAAAAAAAAAAAAAAABzA==},
 	Bdsk-Url-1 = {https://doi.org/10.2514/1.T5523}}
 
 @inproceedings{hanquist:aviation:2015,
@@ -986,11 +786,11 @@
 	Author = {Kyle M. Hanquist and Iain D. Boyd},
 	Booktitle = {AIAA Aviation and Aeronautics Forum and Exposition},
 	Date-Added = {2020-04-18 15:14:32 -0700},
-	Date-Modified = {2020-07-13 20:20:27 +0000},
+	Date-Modified = {2020-04-19 17:55:53 -0700},
 	Doi = {10.2514/6.2019-3567},
 	Month = {June},
 	Publisher = {{AIAA Paper} 2019-3567},
-	Title = {Modeling of Electronically Excited Oxygen in {O$_2$-Ar} Shock Tube Studies},
+	Title = {Modeling of Electronically Excited Oxygen in {O2-Ar} Shock Tube Studies},
 	Url = {https://doi.org/10.2514/6.2019-3567},
 	Year = {2019},
 	Bdsk-Url-1 = {https://doi.org/10.2514/6.2019-3567}}
